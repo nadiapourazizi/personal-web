@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+    direction: ltr;
+    font-size: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+header ,nav ,section ,div ,aside ,footer ,article ,figure , ul ,li{
+    display: flex;
+    flex-wrap: wrap;
+}
+*::before , *::after{
+    content: '';
+}

@@ -1,0 +1,138 @@
+/* start page1 */
+.important{
+    width: 100%;
+    height: auto;
+    /* overflow-x: hidden; */
+}
+.important_background{
+    width: 100%;
+    height: 110vh;
+    background-image: url(../img/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.important_background_nav{
+    width: 100%;
+    height: 65px;
+    background-color:  rgba(204, 209, 207, 0.89);
+    position: fixed;
+}
+.important_background_nav_ul1{
+    width: 40%;
+    height: 65px;
+    /* padding: 20px; */
+}
+.important_background_nav_ul1>li{
+    height: 100%;
+}
+.important_background_nav_ul1>li>a{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 100%;
+    /* background-color: coral; */
+    text-transform: capitalize;
+    padding:  20px;
+    transition: .6s all;
+}
+.important_background_nav_ul1>li>a:hover{
+    color: cornsilk;
+}
+
+.important_background_nav_ul2{
+    width: 60%;
+    height: 65px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    /* padding: 20px; */
+}
+.important_background_nav_ul2>li{
+    height: 100%;
+}
+.important_background_nav_ul2>li>a{
+    padding:  20px;
+    /* border: 2px solid black; */
+    display: flex;
+    height: 100%;
+    /* background-color: coral; */
+    text-transform: capitalize;
+    transition: .6s all;
+}
+.important_background_nav_ul2>li>a:hover{
+    color: cornsilk;
+}
+/* end page1 */
+/* start page2 */
+.important_About{
+    width: 100%;
+    height:120vh;
+    padding: 40px 0;
+}
+.important_About_row1{
+    width: 50%;
+    /* border: 2px solid peru; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.important_About_row2{
+    width: 50%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+
+}
+.important_About_row2>h1, h6{
+    font-weight: normal;
+}
+.important_About_row2>h1{
+    font-size: 30px;
+}
+.important_About_row2>h6{
+    font-size: 18px;
+}
+.important_About_row2>p{
+    color: rgba(169, 169, 169, 0.856);
+}
+/* end page2 */
+/* start page3 */
+.important_contact{
+    width: 100%;
+    height: 110vh;
+    padding: 100px 30px;
+}
+.important_contact_row1{
+    display: block;
+    line-height: 4;
+}
+.important_contact_row1>h3{
+    font-size: 28px;
+}
+.important_contact_row2>input{
+    width: 75%;
+    display: block;
+}
+.important_contact_row2>input{
+    background-color: gainsboro;
+}
+.important_contact_row2>input:hover{
+    background-color: rgb(236, 235, 228);
+}
+.important_contact_row2>button{
+    width: 10%;
+    display: block;
+    /* background-color: rgba(145, 137, 137, 0.555); */
+}
+.important_foot{
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: silver;
+    padding: 20px 0;
+}
+/* end page3 */
+

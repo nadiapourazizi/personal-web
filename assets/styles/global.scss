@@ -1,0 +1,309 @@
+body{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+.scroll-example::-webkit-scrollbar {
+    overflow: auto;
+    width: 0px;
+}
+.mainPage{
+    width: 100%;
+    background-color: rgba(23, 26, 179, 0.753);
+    // position: fixed;
+    .mainPage_div1{
+        z-index: 100;
+        position: fixed;      
+        margin-top: -80px;       
+        >.mainPage_div2{
+            height: 115px;                          
+            header>nav>.mainPage_div2_nav_ul>li>a{
+                color:white;
+                transition: .4s;                
+                &:hover{
+                 color: rgba(0, 0, 0, 0.918);
+                }
+             }
+            }
+        >div>header>.mainPage_div2_header_section1{
+            background-image: url(../images/logo-no-background.png);
+            background-position: 29px 9px;
+            background-size: 100px;
+            background-repeat: no-repeat;
+            
+        }
+    }
+    .fixIcons{
+        position: fixed;
+        top: 41%;
+        left: 94%;
+        ul>li{
+            padding: 10px 4px;
+            border-radius: 2px 0 0 2px;
+            >a>i{
+                font-size: 24px;
+                color: rgba(255, 255, 255, 0.911);
+                transition: .4s;
+                &:hover{
+                    color: rgba(0, 0, 0, 0.918);
+                }
+            }
+        }
+    }
+
+}
+.content_div{
+    margin-top: 80px;
+    >.content_div2{
+        padding-top: 80px;
+        h1{
+        margin-top: 10px;
+        font-size: 70px;
+        height: 200px;
+    }
+   h5{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+        padding: 12px 0;
+    }
+}}
+.about_div{
+    padding: 100px 60px;
+    min-height: 550px;   
+  
+    >div{
+         
+         .about_div_section1{
+            height: 100%;
+            .about_div_box1{
+                transition: .4s;
+                &:hover{
+                    background-color: rgba(23, 26, 179, 0.37);
+                }
+            }   
+         }
+ .about_div_section2>div{
+        height: 100%;
+        img{
+            padding: 0;
+            box-shadow: 0 0 20px  rgba(220, 220, 220, 0.582);    
+
+        }
+   } 
+    }
+}
+.services_div{
+    .services_div_2{
+        h3{
+            font-size: 30px;
+            padding-top: 110px;
+            padding-bottom: 10px;
+        }
+        h4{
+            font-size: 40px;
+            padding-bottom: 30px;
+
+        }
+    }
+    .services_div_3{
+        .services_div_4{
+            transition: .4s;
+            div>i{
+                font-size: 33px;
+            }
+            p{
+                font-size: 20px;
+                padding-top: 15px;
+            }
+            h4{
+                font-size: 28px;
+                padding-top: 15px;
+            }
+            &:hover{
+                background-color: rgba(23, 26, 179, 0.37);
+                
+            }
+        }
+        .services_div_5{
+            transition: .4s;
+            div>i{
+                font-size: 33px;
+            }
+            p{
+                font-size: 20px;
+                padding-top: 15px;
+
+            }
+            h4{
+                font-size: 28px;
+                padding-top: 15px;
+            }
+            &:hover{
+                background-color: rgba(23, 26, 179, 0.37);
+               
+           }
+        }
+        .services_div_6{
+            transition: .4s;
+            div>i{
+                font-size: 33px;
+            }
+            p{
+                font-size: 20px;
+                padding-top: 15px;
+
+            }
+            h4{
+                font-size: 28px;
+                padding-top: 15px;
+            }
+            &:hover{
+                background-color: rgba(23, 26, 179, 0.37);
+               
+           }
+        }
+    }
+}
+.skill_div{
+    .skill_div_2{
+        h3{
+            font-size: 30px;
+            padding-top: 100px;
+            padding-bottom: 10px;
+        }
+        h4{
+            font-size: 40px;
+            padding-bottom: 30px;
+
+        }
+  }
+  .skill_div_5{
+    transition: .4s;
+    &:hover{
+        background-color: rgba(23, 26, 179, 0.37);
+    }
+   }
+}
+.work_div{
+    .work_div_2{
+        h3{
+            font-size: 30px;
+            padding-top: 110px;
+            padding-bottom: 10px;
+        }
+        h4{
+            font-size: 40px;
+            padding-bottom: 30px;
+
+        }
+    }
+    .work_div_3{
+            .work_div_5{
+                position: relative;
+                overflow: hidden;
+                &:hover>a>div{
+                    opacity: 1;
+                    right: 0;
+                }
+                >a>div{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 0;
+                    right: 40%;
+                    background-color: rgba(23, 26, 179, 0.37);
+                    transition: 1.1s;
+                    color: rgb(243, 248, 253);
+                    opacity: 0;
+                    font-size: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+}
+.contact_box{
+    .contact_box_2{
+        h3{
+            font-size: 30px;
+            padding-top: 142px;
+            padding-bottom: 10px;
+        }
+        h4{
+            font-size: 40px;
+            padding-bottom: 30px;
+
+        }
+    }
+    .contact_box_3{
+        .contact_box_3-2{
+            transition: .4s;
+            &:hover{
+                background-color: rgba(23, 26, 179, 0.37);
+            }
+        }
+        .contact_box_4{
+             i{
+                font-size: 21px;
+             }
+             h4{
+                font-size: 25px;
+                
+             }
+        }
+        .contact_box_5{
+            i{
+                font-size: 21px;
+             }
+             address{
+                font-size: 25px;
+             }
+
+        }
+        .contact_box_6{
+            i{
+                font-size: 21px;
+             }
+             h6{
+                font-size: 25px;
+             }
+    
+        }
+        .contact_box_7{
+            i{
+                font-size: 21px;
+             }
+             h6{
+                font-size: 25px;
+             }
+    
+        }
+    }
+    .contact_box_8{
+        button{
+            background-color: transparent;
+            transition: .7s;
+            &:hover{
+                background-color: rgba(245, 245, 245, 0.925);
+            }
+        }
+        .contact_box_9{
+          background-color: rgba(245, 245, 245, 0.89);
+        }
+        // .contact_box_10{
+
+        // }
+    }
+    
+}
